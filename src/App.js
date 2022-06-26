@@ -1,19 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-          <h2>My first Heroku app</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Iframe src="https://pranaylamse.github.io/Portfolio-pranay-lamse/" height="500" width="500"/>,
       </div>
     );
   }
